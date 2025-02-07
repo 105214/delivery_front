@@ -1,0 +1,73 @@
+html,body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.login-main-image-box {
+    background-image: linear-gradient(rgba(200,200,200,.4), rgba(200,200,200,.4)), url('./pexels-janetrangdoan-1092730.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(29, 26, 26);
+    
+    position: relative;
+    
+    
+    filter: blur(8px);
+  }
+  
+  .form-box {
+    height: 600px;
+    width: 900px;
+    border: 1px solid #fff;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    /* Override the blur effect for this element */
+    filter: none;
+    background: rgba(255, 255, 255, 0.8); /* Optional: Add a semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .input-image-box{
+    background-image:url("./wmremove-transformed.webp");
+    padding:0px;
+    margin:0px;
+    height:600px;
+    width:450px;
+    background-size: cover;
+    border-radius: 5px;
+    background-position: center;
+  }
+  .input-box-text{
+    height: 600px;
+    width:450px
+  }
+/* .login-main-image-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: blur(3px);
+    z-index: -1;
+  } */
+  form {
+    padding-top: 50px;
+}
+.mb-3.email-box {
+  width: 250px;
+}
+.mb-3.password-box {
+  width: 250px;
+}
+.login-button{
+  width:200px
+}

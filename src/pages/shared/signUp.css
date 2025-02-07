@@ -1,0 +1,11 @@
+*{
+   margin:0px;
+   padding:0px;
+   box-sizing: border-box ;
+}
+
+#profilePic{
+    height: 300px;
+    width:300px;
+    border:1px solid black;
+}
