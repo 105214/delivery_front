@@ -7,6 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 function UserHeader() {
   return (
     <div>
+      {/* user header */}
          <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
@@ -15,7 +16,7 @@ function UserHeader() {
           <Nav className="me-auto">
             <Nav.Link as={Link} to={"/"}>Home</Nav.Link>
             <Nav.Link as={Link} to={"/login"}>Link</Nav.Link>
-            
+                
             
           </Nav>
         </Navbar.Collapse>
