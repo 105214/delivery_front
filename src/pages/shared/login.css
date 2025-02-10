@@ -5,16 +5,13 @@ html,body{
 }
 
 .login-main-image-box {
-    background-image: linear-gradient(rgba(200,200,200,.4), rgba(200,200,200,.4)), url('./pexels-janetrangdoan-1092730.jpg');
+    background-image: linear-gradient(rgba(200,200,200,.4), rgba(200,200,200,.4)), url('./images/pexels-janetrangdoan-1092730.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-color: rgb(29, 26, 26);
-    
     position: relative;
-    
-    
     filter: blur(8px);
   }
   
@@ -35,7 +32,7 @@ html,body{
     border-radius: 10px;
   }
   .input-image-box{
-    background-image:url("./wmremove-transformed.webp");
+    background-image:url("./images/wmremove-transformed.webp");
     padding:0px;
     margin:0px;
     height:600px;

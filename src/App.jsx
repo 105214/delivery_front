@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Login from './pages/shared/Login.jsx'
-import SignUp from './pages/shared/signUp.jsx'
+import UserSignUP from './pages/user/userSignup.jsx';
 import router from './routes/router.jsx'
 import { createBrowserRouter,RouterProvider,} from "react-router-dom";
 
